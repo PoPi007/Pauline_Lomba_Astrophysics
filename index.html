@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroGallery</title>
+    <!-- Utilisation de Bootstrap pour le style -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1>AstroGallery</h1>
+        <p>Explorer l'univers à travers des images captivantes.</p>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+            <!-- Boucle sur les images dans le dossier "images" -->
+            <?php
+            $images = glob('images/*.jpg');
+            foreach ($images as $image) {
+                echo '<div class="col-md-4 mb-4">';
+                echo '<img src="' . $image . '" alt="Astrophoto" class="img-fluid">';
+                echo '</div>';
+            }
+            ?>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 AstroGallery. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Utilisation de Bootstrap pour les scripts JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
