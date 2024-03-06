@@ -1,0 +1,32 @@
+# Fichiers système Windows
+Thumbs.db
+Desktop.ini
+.BIN/
+
+# Répertoires système Windows
+.VirtualBox/
+.anaconda/
+.astroimagej/
+.conda/
+.continuum/
+.ipython/
+.jupyter/
+.matplotlib/
+.spyder-py3/
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Jedi/
+Links/
+Music/
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+VirtualBox VMs/
+anaconda3/
