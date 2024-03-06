@@ -15,20 +15,6 @@
         <p>Explorer l'univers à travers des images captivantes.</p>
     </header>
 
-    <div class="container my-5">
-        <div class="row">
-            <!-- Boucle sur les images dans le dossier "images" -->
-            <?php
-            $images = glob('images/*.jpg');
-            foreach ($images as $image) {
-                echo '<div class="col-md-4 mb-4">';
-                echo '<img src="' . $image . '" alt="Astrophoto" class="img-fluid">';
-                echo '</div>';
-            }
-            ?>
-        </div>
-    </div>
-
     <!-- Ajout des liens vers les fichiers PDF et l'image -->
     <div class="container">
         <div class="row">
@@ -55,3 +41,4 @@
 
 </body>
 </html>
+
