@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow"> <!-- Ajout de la balise meta pour les moteurs de recherche -->
+    <meta name="robots" content="index, follow">
     <title>AstroGallery</title>
     <!-- Utilisation de Bootstrap pour le style -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Ajout des liens vers vos fichiers CSS et JavaScript -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <style>
+        /* Ajout de quelques styles personnalisés */
+        body {
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        p {
+            font-size: 1.25rem;
+            color: #6c757d;
+        }
+
+        footer p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .gallery-link {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.5rem;
+        }
+
+        .gallery-link:hover {
+            color: #0056b3;
+        }
+    </style>
 </head>
 <body>
 
@@ -22,10 +54,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-4">
-                <a href="Photos_pic_jav_2024.pdf">Lien vers la première photo</a>
+                <a href="Photos_pic_jav_2024.pdf" class="gallery-link">Lien vers la première photo</a>
             </div>
             <div class="col-md-4 mb-4">
-                <a href="Transit_pic_janv_2024.pdf">Lien vers la deuxième photo</a>
+                <a href="Transit_pic_janv_2024.pdf" class="gallery-link">Lien vers la deuxième photo</a>
             </div>
             <div class="col-md-4 mb-4">
                 <img src="Black_Hole_Star.png" alt="Black Hole Star" class="img-fluid">
@@ -44,4 +76,3 @@
 
 </body>
 </html>
-
