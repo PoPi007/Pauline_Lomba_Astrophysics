@@ -100,8 +100,8 @@ input, select, textarea {
 
 
 	body {
-	    background-image: url("images/Pauline_Lomba(2).jpg");
-	    background-size: 100%; /* Ajustez cette valeur pour "dézoomer" l'image */
+	    background-image: url("images/background.png");
+	    background-size: 50%; /* Ajustez cette valeur pour "dézoomer" l'image */
 	    background-position: center; /* Centrer l'image */
 	    background-repeat: no-repeat; /* Éviter la répétition de l'image */
 	}
