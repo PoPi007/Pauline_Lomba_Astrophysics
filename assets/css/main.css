@@ -98,12 +98,12 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-
 	body {
-	    background-image: url("images/background.jpg");
-	    background-size: cover; /* Pour que l'image couvre tout l'écran */
-	    background-position: center; /* Pour centrer l'image */
-	    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+	    background-color: #000; /* Couleur de fond de secours (noir) */
+	    background-image: url("images/background.jpg"); /* Assurez-vous que ce chemin est correct */
+	    background-size: cover; /* L'image couvre toute la zone visible */
+	    background-position: center; /* L'image est centrée */
+	    background-repeat: no-repeat; /* L'image ne se répète pas */
 	}
 
 
