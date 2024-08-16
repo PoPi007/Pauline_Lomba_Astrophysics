@@ -98,13 +98,14 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+
 	body {
-		background-color: #00ffd8;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(0deg, #320096 15%, #5ce1e6 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(0deg, #320096 15%, #5ce1e6 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(0deg, #320096 15%, #5ce1e6 85%);
-		background-image: url("images/overlay.png"), linear-gradient(0deg, #320096 15%, #5ce1e6 85%);
+	    background-image: url("images/background.jpg");
+	    background-size: cover; /* Pour que l'image couvre tout l'écran */
+	    background-position: center; /* Pour centrer l'image */
+	    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
 	}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
