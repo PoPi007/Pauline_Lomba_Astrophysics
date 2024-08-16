@@ -98,12 +98,14 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+
 	body {
-	    background-image: url("images/background.png");
-	    background-size: cover; /* Pour que l'image couvre tout l'écran */
-	    background-position: center; /* Pour centrer l'image */
-	    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+	    background-image: url("images/Pauline_Lomba(2).jpg");
+	    background-size: 65%; /* Ajustez cette valeur pour "dézoomer" l'image */
+	    background-position: center; /* Centrer l'image */
+	    background-repeat: no-repeat; /* Éviter la répétition de l'image */
 	}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
