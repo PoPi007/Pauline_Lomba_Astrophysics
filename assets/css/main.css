@@ -99,13 +99,12 @@ input, select, textarea {
 	}
 
 	body {
-	    background-color: #000; /* Couleur de fond de secours (noir) */
-	    background-image: url("images/background.jpg"); /* Assurez-vous que ce chemin est correct */
-	    background-size: cover; /* L'image couvre toute la zone visible */
-	    background-position: center; /* L'image est centrée */
-	    background-repeat: no-repeat; /* L'image ne se répète pas */
+	    background-image: url("https://www.example.com/path/to/test-image.jpg");
+	    background-size: cover;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-color: #000; /* Sauvegarde si l'image ne charge pas */
 	}
-
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
