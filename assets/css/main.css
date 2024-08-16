@@ -99,11 +99,10 @@ input, select, textarea {
 	}
 
 	body {
-	    background-image: url("https://www.example.com/path/to/test-image.jpg");
-	    background-size: cover;
-	    background-position: center;
-	    background-repeat: no-repeat;
-	    background-color: #000; /* Sauvegarde si l'image ne charge pas */
+	    background-image: url("images/background.png");
+	    background-size: cover; /* Pour que l'image couvre tout l'écran */
+	    background-position: center; /* Pour centrer l'image */
+	    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
