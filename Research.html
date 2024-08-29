@@ -6,6 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        nav#nav {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+        }
+        section {
+            margin-top: 40px;
+        }
+        .section-wrapper {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .text-container {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .photo-container, .text-container {
+            flex: 1;
+            margin: 10px;
+        }
+        .photo-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .divider {
+            width: 5px;
+            background-color: #FFC300;
+            height: 50px;
+            margin: 20px auto;
+        }
+        footer {
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .actions {
+            list-style: none;
+            padding: 0;
+        }
+        .actions li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .icons {
+            list-style: none;
+            padding: 0;
+        }
+        .icons li {
+            display: inline;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body class="is-preload">
 
@@ -28,25 +90,25 @@
         <!-- Main -->
         <div id="main">
 
-          <!-- New Section 1 -->
-          <section class="section-wrapper">
-              <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
-                      <!-- Text Content -->
-                      <div class="text-container">
-                          <p>My research aims to uncover the diversity of planetary physics among the exoplanet population. The thousands of exoplanets known to date encompass a staggering range of temperatures, sizes, and bulk densities, going beyond the conditions known to exist in the solar system. To learn about these distant planets, I use theoretical forward and inverse models of their atmospheres to study the interplay between various physical and chemical processes, and to place empirical constraints on these processes by interpreting atmospheric observations.</p>
-                      </div>
-                      <!-- Photo on the side -->
-                      <div class="photo-container">
-                          <img src="images/exoplanet.jpg" />
-                      </div>
-                      <div class="text-container">
-                          <p>Below, you can read more about some of my recent projects. For a full list of publications, please see <a href="https://ui.adsabs.harvard.edu/" target="_blank">NASA ADS</a>.</p>
-                      </div>
+            <!-- Content -->
+            <section id="content" class="main">
+                <h2 style="font-size: 2.5em;">Research</h2>
+                <p>My research aims to uncover the diversity of planetary physics among the exoplanet population. The thousands of exoplanets known to date encompass a staggering range of temperatures, sizes, and bulk densities, going beyond the conditions known to exist in the solar system. To learn about these distant planets, I use theoretical forward and inverse models of their atmospheres to study the interplay between various physical and chemical processes, and to place empirical constraints on these processes by interpreting atmospheric observations.</p>
+                
+                <!-- Image between paragraphs -->
+                <div style="text-align: center; margin: 20px 0;">
+                    <img src="images/research_image.jpg" alt="Research Overview" style="max-width: 80%; height: auto;" />
                 </div>
-
+                
+                <p>Below, you can read more about some of my recent projects. For a full list of publications, please see <a href="https://ui.adsabs.harvard.edu/" target="_blank">NASA ADS</a>.</p>
                 
                 <!-- Divider -->
                 <hr />
+
+                <!-- Vertical bar -->
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 5px; background-color: #FFC300; height: auto; margin-right: 20px;"></div>
+                </div>
 
                 <!-- New Section 1 -->
                 <section style="margin-top: 40px;">
@@ -138,5 +200,3 @@
 
 </body>
 </html>
-
-
