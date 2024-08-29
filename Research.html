@@ -6,68 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        #wrapper {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        nav#nav {
-            margin-bottom: 20px;
-            padding: 10px 20px;
-        }
-        section {
-            margin-top: 40px;
-        }
-        .section-wrapper {
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        .text-container {
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        .photo-container, .text-container {
-            flex: 1;
-            margin: 10px;
-        }
-        .photo-container img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        .divider {
-            width: 5px;
-            background-color: #FFC300;
-            height: 50px;
-            margin: 20px auto;
-        }
-        footer {
-            padding: 20px;
-            background-color: #f8f8f8;
-        }
-        .actions {
-            list-style: none;
-            padding: 0;
-        }
-        .actions li {
-            display: inline;
-            margin-right: 10px;
-        }
-        .icons {
-            list-style: none;
-            padding: 0;
-        }
-        .icons li {
-            display: inline;
-            margin-right: 10px;
-        }
-    </style>
 </head>
 <body class="is-preload">
 
@@ -90,67 +28,73 @@
         <!-- Main -->
         <div id="main">
 
-            <!-- New Section 1 -->
-            <section class="section-wrapper">
-                <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center;">
-                    <!-- Text Content -->
-                    <div class="text-container">
-                        <p>My research aims to uncover the diversity of planetary physics among the exoplanet population. The thousands of exoplanets known to date encompass a staggering range of temperatures, sizes, and bulk densities, going beyond the conditions known to exist in the solar system. To learn about these distant planets, I use theoretical forward and inverse models of their atmospheres to study the interplay between various physical and chemical processes, and to place empirical constraints on these processes by interpreting atmospheric observations.</p>
-                    </div>
-                    <!-- Photo on the side -->
-                    <div class="photo-container">
-                        <img src="images/exoplanet.jpg" alt="Exoplanet Image" />
-                    </div>
-                    <div class="text-container">
-                        <p>Below, you can read more about some of my recent projects. For a full list of publications, please see <a href="https://ui.adsabs.harvard.edu/" target="_blank">NASA ADS</a>.</p>
-                    </div>
+          <!-- New Section 1 -->
+          <section class="section-wrapper">
+              <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
+                      <!-- Text Content -->
+                      <div class="text-container">
+                          <p>My research aims to uncover the diversity of planetary physics among the exoplanet population. The thousands of exoplanets known to date encompass a staggering range of temperatures, sizes, and bulk densities, going beyond the conditions known to exist in the solar system. To learn about these distant planets, I use theoretical forward and inverse models of their atmospheres to study the interplay between various physical and chemical processes, and to place empirical constraints on these processes by interpreting atmospheric observations.</p>
+                      </div>
+                      <!-- Photo on the side -->
+                      <div class="photo-container">
+                          <img src="images/exoplanet.jpg" />
+                      </div>
+                      <div class="text-container">
+                          <p>Below, you can read more about some of my recent projects. For a full list of publications, please see <a href="https://ui.adsabs.harvard.edu/" target="_blank">NASA ADS</a>.</p>
+                      </div>
                 </div>
-            </section>
 
-            <!-- Divider -->
-            <div class="divider"></div>
+                
+                <!-- Divider -->
+                <hr />
 
-            <!-- New Section 1 -->
-            <section style="margin-top: 40px;">
-                <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center;">
-                    <!-- Text Content -->
-                    <div style="flex: 1; margin-right: 20px; min-width: 300px;">
-                        <h3>Interior Composition Model for Sub-Neptune Exoplanets: A Focus on K2-18b</h3>
-                        <p style="font-size: 0.9em;">The exploration of exoplanets has revealed a wide range of planetary bulk compositions through the analysis of their masses and radii, leading to valuable insights into their internal structure. However, the differentiation of exoplanets’ interiors into distinct layers introduces degeneracies among possible compositions, complicating efforts to accurately infer their internal properties.</p>
-                        <p style="font-size: 0.9em;">Here, we present a novel approach to address this challenge by combining a 1D planet interior structure model, MAGRATHEA, with a nested sampling algorithm, UltraNest. Our goal is to constrain the interior structure of the most populous class of planets in our galaxy, which are planets larger than Earth but smaller than Neptune (between 1-4 R⊕). For the planet’s interior, we consider four possible components: an iron core, a mantle of silicates, a hydrosphere composed of water/ice covered by an H2-dominated atmosphere in ideal gas conditions.</p>
-                        <p style="font-size: 0.9em;">By employing nested sampling techniques, we aim to explore the parameter space and discriminate between various compositional models. We finally use our work to study K2-18b, one of the most promising exoplanets for habitability that creates debate on its real composition.</p>
-                        <p style="font-size: 0.9em;">We compare our results with previous studies to validate the effectiveness of our approach. The results of our project will help enhance our understanding of exoplanetary interiors, which are crucial in driving planets’ climates and creating habitable conditions.</p>
+                <!-- New Section 1 -->
+                <section style="margin-top: 40px;">
+                    <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
+                        <!-- Text Content -->
+                        <div style="flex: 1; margin-right: 20px; min-width: 300px;">
+                            <h3>Interior Composition Model for Sub-Neptune Exoplanets: A Focus on K2-18b</h3>
+                            <p style="font-size: 0.9em;">The exploration of exoplanets has revealed a wide range of planetary bulk compositions through the analysis of their masses and radii, leading to valuable insights into their internal structure. However, the differentiation of exoplanets’ interiors into distinct layers introduces degeneracies among possible compositions, complicating efforts to accurately infer their internal properties.</p>
+                            <p style="font-size: 0.9em;">Here, we present a novel approach to address this challenge by combining a 1D planet interior structure model, MAGRATHEA, with a nested sampling algorithm, UltraNest. Our goal is to constrain the interior structure of the most populous class of planets in our galaxy, which are planets larger than Earth but smaller than Neptune (between 1-4 R⊕). For the planet’s interior, we consider four possible components: an iron core, a mantle of silicates, a hydrosphere composed of water/ice covered by an H2-dominated atmosphere in ideal gas conditions.</p>
+                            <p style="font-size: 0.9em;">By employing nested sampling techniques, we aim to explore the parameter space and discriminate between various compositional models. We finally use our work to study K2-18b, one of the most promising exoplanets for habitability that creates debate on its real composition.</p>
+                            <p style="font-size: 0.9em;">We compare our results with previous studies to validate the effectiveness of our approach. The results of our project will help enhance our understanding of exoplanetary interiors, which are crucial in driving planets’ climates and creating habitable conditions.</p>
+                        </div>
+                        <!-- Photo on the side -->
+                        <div style="flex: 0 1 300px;">
+                            <img src="images/side_photo.jpg" alt="K2-18b Research Image" style="max-width: 100%; height: auto;" />
+                        </div>
                     </div>
-                    <!-- Photo on the side -->
-                    <div style="flex: 0 1 300px;">
-                        <img src="images/side_photo.jpg" alt="K2-18b Research Image" style="max-width: 100%; height: auto;" />
-                    </div>
+                </section>
+
+                <!-- Vertical bar between sections -->
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 5px; background-color: #FFC300; height: 50px; margin-right: 20px;"></div>
                 </div>
-            </section>
 
-            <!-- Vertical bar between sections -->
-            <div class="divider"></div>
+                <!-- New Section 2 -->
+                <section style="margin-top: 40px;">
+                    <div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
+                        <!-- Text Content -->
+                        <div style="flex: 1; margin-right: 20px; min-width: 300px;">
+                            <h3>Determination of the Base of the Convective Zone and the Helium Ionization Zone for 10 Solar-Type Stars</h3>
+                            <p style="font-size: 0.9em;">We compare our results with previous studies to validate the effectiveness of our approach. The results of our project will help enhance our understanding of exoplanetary interiors, which are crucial in driving planets’ climates and creating habitable conditions.</p>
+                        </div>
+                        <!-- Photo on the side -->
+                        <div style="flex: 0 1 300px;">
+                            <img src="images/side_photo2.jpg" alt="Solar-Type Stars Research Image" style="max-width: 100%; height: auto;" />
+                        </div>
+                    </div>
+                </section>
 
-            <!-- New Section 2 -->
-            <section style="margin-top: 40px;">
-                <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center;">
-                    <!-- Text Content -->
-                    <div style="flex: 1; margin-right: 20px; min-width: 300px;">
-                        <h3>Determination of the Base of the Convective Zone and the Helium Ionization Zone for 10 Solar-Type Stars</h3>
-                        <p style="font-size: 0.9em;">We compare our results with previous studies to validate the effectiveness of our approach. The results of our project will help enhance our understanding of exoplanetary interiors, which are crucial in driving planets’ climates and creating habitable conditions.</p>
-                    </div>
-                    <!-- Photo on the side -->
-                    <div style="flex: 0 1 300px;">
-                        <img src="images/side_photo2.jpg" alt="Solar-Type Stars Research Image" style="max-width: 100%; height: auto;" />
-                    </div>
+                <!-- Vertical bar -->
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 5px; background-color: #FFC300; height: auto; margin-right: 20px;"></div>
                 </div>
+                
             </section>
-
-            <!-- Vertical bar -->
-            <div class="divider"></div>
 
         </div>
-
+        
         <!-- Footer -->
         <footer id="footer">
             <section>
@@ -194,4 +138,5 @@
 
 </body>
 </html>
+
 
