@@ -101,10 +101,15 @@ input, select, textarea {
 
 	body {
 	    background-image: url("images/background.png");
-	    background-size: 100%; /* Ajustez cette valeur pour "dézoomer" l'image */
-	    background-position: center; /* Centrer l'image */
-	    background-repeat: no-repeat; /* Éviter la répétition de l'image */
+	    background-size: cover; /* Couvre entièrement le corps de la page en maintenant les proportions */
+	    background-position: center; /* Centre l'image */
+	    background-repeat: no-repeat; /* Évite la répétition de l'image */
+	    background-attachment: fixed; /* Fait en sorte que l'image de fond reste fixe lors du défilement */
+	    margin: 0; /* Élimine les marges par défaut */
+	    padding: 0; /* Élimine le padding par défaut */
+	    min-height: 100vh; /* Assure que le corps utilise au moins toute la hauteur de la fenêtre */
 	}
+
 
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
